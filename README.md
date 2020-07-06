@@ -72,7 +72,13 @@ Antes de iniciar os passos abaixo é muito importante que você execute nesse mo
 > npm install
 ```
 
-2) Depois executar o seguinte comando para executar a aplicação (dentro da pasta `api`):
+2) Se o nodemon não estiver instalado, executar o seguinte comando para instalar (dentro da pasta `api`):
+
+...
+> npm install -g nodemon
+...
+
+3) Depois executar o seguinte comando para executar a aplicação (dentro da pasta `api`):
 
 ```
 > nodemon
